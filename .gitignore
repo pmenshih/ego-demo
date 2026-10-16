@@ -1,0 +1,18 @@
+fallback/
+*.csv
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+CLAUDE.md
+tgo-course.code-workspace
+.venv/
+lectures/*/*.pptx
+lectures/*/assets/
+.~lock.*#
+assignments/*/solution/
+
+# артефакты работ коммитятся, корпусы нет
+!*/artifacts/*.csv
+!assignments/*/examples/*.csv
+*/corpus.txt
